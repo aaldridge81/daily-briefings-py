@@ -73,6 +73,15 @@ python -m app.daily_briefing
 APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="20057" python -m app.daily_briefing
 ```
 
+### Web App
+```
+# mac:
+FLASK_APP=web_app flask run
+# windows:
+export FLASK_APP=web_app
+flask run
+```
+
 
 ## Testing
 
@@ -84,6 +93,8 @@ pytest
 # in CI mode:
 CI=true pytest
 ```
+
+
 
 
 ## [Deploying](/DEPLOYING.md)
